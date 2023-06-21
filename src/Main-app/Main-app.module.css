@@ -1,0 +1,106 @@
+.mainWrapper{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    color: white;
+    width: 100%;
+
+}
+.mainLeft{
+    width: 100%;
+    text-shadow: 2px 2px 2px silver;
+}
+.mainRight{
+    margin:10%;
+    box-shadow: 5px 5px 5px 5px black;
+    width: 100%;
+}
+.rightHeading{
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    padding-right:2% ;
+}
+.second{
+    padding-left: 2%;
+}
+
+.adjust{
+    margin-left: 50%;
+}
+.details{
+    margin: 5% 4%;
+    color: gray;
+}
+.subDetails{
+    text-shadow: 3px 3px 3px black;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.instaIcon{
+    font-size: 24px;
+}
+.about{
+    margin-top: -50px;
+    text-shadow: 2px 2px 2px black;
+    color: gray;
+}
+.founder{
+    border: 5px solid black;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.title{
+    margin: 5%;
+    margin-left: 0;
+    width: fit-content;
+    display: flex;
+    padding: 1%;
+    color: black;
+    background-color: lightgray;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px black;
+    border: 2px solid black;
+    border-radius: 25%;
+    box-shadow: 3px 2px 3px silver;
+}
+@media screen and (max-width:780px){
+    .mainWrapper{
+        display: block;
+        width: 100%;
+    }
+    .leftMain{
+        width: 100%;
+    }
+    .title{
+        display: none;
+    }
+    .mainRight{
+        margin:0;
+    }
+    .rightHeading{
+        display: block;
+    }
+    .listItem{
+        margin-left:20% ;
+    }
+    .flexItem{
+        font-size: 20px;
+    }
+    .adjust{
+        margin-top: -5%;
+        margin-left: 38%;
+    }
+    .subDetails{
+        margin: 0;
+    }
+    .moreDetails{
+        width: 100%;
+    }
+}

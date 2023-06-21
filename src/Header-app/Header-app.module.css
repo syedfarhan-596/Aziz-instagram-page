@@ -1,0 +1,25 @@
+.headerWrapper{
+    width: 100%;
+    padding: 1% 2%;
+    box-shadow:3px 3px 3px black;
+}
+.title{
+    width: fit-content;
+    display: flex;
+    padding: 1%;
+    color: black;
+    background-color: lightgray;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px black;
+    border: 2px solid black;
+    border-radius: 25%;
+    box-shadow: 3px 2px 3px silver;
+    cursor: pointer;
+}
+
+@media screen and (max-width:780px){
+    .title{
+        margin-left: 30%;
+        margin-bottom: 2%;
+    }
+}
