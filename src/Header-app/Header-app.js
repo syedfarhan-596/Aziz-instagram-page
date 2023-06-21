@@ -1,4 +1,3 @@
-import react from 'react'
 import classes from './Header-app.module.css';
 
 const Header = () =>{

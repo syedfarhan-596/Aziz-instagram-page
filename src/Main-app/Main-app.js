@@ -1,4 +1,3 @@
-import react from 'react'
 import founder from './founder.jpg';
 import classes from './Main-app.module.css';
 
