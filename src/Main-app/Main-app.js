@@ -74,6 +74,7 @@ const Main = () =>{
                 <h4>To bring youngsters close to Islam</h4><hr></hr>
                 <h4>Utilise skills of youth to achieve success in duniya and here after</h4><hr></hr>
             </div>
+            <div><h1>Just to check</h1></div>
         </div>
     )
 }
