@@ -26,9 +26,6 @@
     padding-left: 2%;
 }
 
-.adjust{
-    margin-left: 50%;
-}
 .details{
     margin: 5% 4%;
     color: gray;
@@ -93,9 +90,13 @@
     .flexItem{
         font-size: 20px;
     }
-    .adjust{
-        margin-top: -5%;
-        margin-left: 38%;
+    .founder{
+        width: 70px;
+        margin: 2%;
+    }
+    .about{
+        margin-top: 2%;
+        font-size: 24px;
     }
     .subDetails{
         margin: 0;
